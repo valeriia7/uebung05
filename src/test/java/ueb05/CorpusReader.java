@@ -11,8 +11,8 @@ class CorpusReader {
 
 	static Iterator<String> thesisTitleIterator() throws IOException {
 		ClassLoader classLoader = CorpusReader.class.getClassLoader();
-		File file = new File(classLoader.getResource("theses.txt").getFile());
-		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+		InputStream is = classLoader.getResourceAsStream("theses.txt");
+		BufferedReader br = new BufferedReader(new InputStreamReader(is));
 
 		return new Iterator<String>() {
 			// keep first line ready
