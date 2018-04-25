@@ -23,4 +23,7 @@ Wie Sie aus der Vorlesung wissen, sind `List` und `Set` `Collection`s, und `Map`
 Solche kann man mit `Collections.sort` sowie einem `Comparator` sortieren.
 
 
-## Aufgabe: CorpusAnalyzer
+## Aufgabe
+
+- Vervollständigen Sie die Implementierung der Klasse `CorpusAnalyzer` gemäß den vorgegebenen JavaDoc Kommentaren.
+- Verifizieren Sie Ihre Implementierung anhand der gelieferten Testcases.
